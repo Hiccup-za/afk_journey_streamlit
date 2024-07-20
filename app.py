@@ -13,7 +13,7 @@ df = pd.DataFrame(list(data.items()), columns=["Question", "Answer"])
 true_df = df[df['Question'].isin(true_data.keys())]
 false_df = df[df['Question'].isin(false_data.keys())]
 error_message = "No matching question found."
-word_count_error = "Please enter at least three words."
+word_count_error = "Please enter at least two words."
 
 def returnQuestion(user_question):
     user_question_lower = user_question.lower()

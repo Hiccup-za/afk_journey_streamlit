@@ -1,1 +1,1 @@
-# afk_journey_streamlit
+# AFK Journey Streamlit App
